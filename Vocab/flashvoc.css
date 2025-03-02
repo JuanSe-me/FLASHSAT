@@ -64,6 +64,7 @@
 
 .card:active .card-inner {
     transform: rotateY(180deg);
+}
 
 body {
     background-color: #cad2c5;
