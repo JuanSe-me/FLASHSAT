@@ -1,0 +1,165 @@
+header {
+    background-color: #240046;
+    height: auto;
+    justify-content: space-between;
+    margin: 0;
+    color: gainsboro;
+    display: flex;
+    padding: 10px 20px 5px 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 10px 20px black;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.item {
+    display: inline;
+    margin: 0px 8px 0px 8px;
+}
+
+.logo {
+    width: 200px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #5a3b7a;
+}
+
+.section {
+    background-color: #9d4edd;
+    border-radius: 20px;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 40px 20px 40px;
+    box-shadow: 0px 10px 20px black;
+    scroll-margin-top: 80px;
+    text-align: center;
+}
+
+
+.insection {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentimg {
+    border-radius: 4px;
+    box-shadow: 0px 6px 30px black;
+    width: 400px;
+}
+
+p {
+    font-size: x-large;
+}
+
+.uno {
+    padding-left: 40px;
+}
+
+.dos {
+    padding-right: 40px;
+}
+
+.tres { 
+    padding-left: 40px;
+}
+
+button {
+    width: 200px;
+    height: 300px;
+    padding: 0px;
+    border: 5px solid #240046;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+
+.play-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardimg {
+    width: 190px;
+    height: 290px;
+    border: 2px solid black;
+}
+
+.card h1 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #5a3b7a;
+  color: #a0276e;
+}
+
+video {
+    width: 400px;
+    height: auto;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section {
+        scroll-margin-top: 100px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    p {
+        font-size: small;
+    }
+    .uno .tres {
+        padding-left: 15px;
+    }
+    .dos {
+        padding-right: 15px;
+    }
+    .play-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .presentimg {
+        width: 100px;
+    }
+    video {
+        height: 150px;
+        width: 250px;
+    }
+}
